@@ -1,7 +1,7 @@
 from random import random
 import math
 
-
+"""
 def multiplicarsinsimbolo(ma, mb):
 
     x = 0
@@ -14,7 +14,7 @@ def multiplicarsinsimbolo(ma, mb):
     return mr
 
 
-print(multiplicarsinsimbolo(2, 5))
+print(multiplicarsinsimbolo(2, 5)) #Se recomienda utilizar nombres de funciones que sean sencillos de nombrar (Clean Code, Pep8, Zen de Python)
 
 
 def retornarnombrereves(nombre, apellido):
@@ -25,6 +25,10 @@ def retornarnombrereves(nombre, apellido):
 
 
 print(retornarnombrereves("Kevin", "Suarez"))
+"""
+"""
+El enunciado menciona: Ingrese nombre y apellido e imprimirlo al revés.
+- No solo presentar al revéz el nombre y el apellido, sino cada letra y/o vocal del nombre y apellido
 
 
 def elementomenorlista():
@@ -33,7 +37,7 @@ def elementomenorlista():
     x = 0
 
     while x < 10:
-        lista.append(round(random()*10))
+        lista.append(round(random()*10)) #Excelente razonamiento, felicitaciones
         x += 1
 
     print(lista)
@@ -80,7 +84,7 @@ def paroimpoar():
 
 paroimpoar()
 
-
+"""
 def vocales():
 
     count1 = 0
@@ -119,3 +123,8 @@ def vocales():
 
 
 vocales()
+
+"""
+Excelente trabajo, felicitaciones, solo te sugiero ser un poco más organizado con tu código y en una futura ocasión desarrollar 
+cada ejercicio en un script diferente.
+"""
